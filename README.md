@@ -13,11 +13,8 @@ This project focuses on predicting **drug–drug interaction (DDI) side effects*
 ├── graphTrans/
 ├── mlp/
 ├── results/
-├── Embedding.ipynb
-├── cross_modal_fusion.ipynb
+├── embedding_codes/
 ├── data_preprocessing.ipynb
-├── gnn_rdkit.ipynb
-├── pair_fusion.ipynb
 └── README.md
 ```
 
