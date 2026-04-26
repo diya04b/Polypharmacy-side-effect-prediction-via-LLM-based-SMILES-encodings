@@ -25,15 +25,7 @@ This project focuses on predicting **drug–drug interaction (DDI) side effects*
 
 ## Folder Details
 
-### 1. `dataset/`
-
-Contains dataset-related files used for training and evaluation.
-
-* Includes raw and/or preprocessed data required for generating embeddings and model inputs.
-
----
-
-### 2. `embedding_quality_testing/`
+### 1. `embedding_quality_testing/`
 
 Contains experiments and evaluation scripts to assess embedding quality.
 
@@ -56,7 +48,7 @@ Contains experiments and evaluation scripts to assess embedding quality.
 
 ---
 
-### 3. `mlp/`
+### 2. `mlp/`
 
 Implements MLP-based models for side-effect prediction.
 
@@ -69,7 +61,7 @@ Implements MLP-based models for side-effect prediction.
   → Uses **mapped embeddings** as input
 
 * `mlp_pair_mapped_only_256.ipynb`
-  → Variant of MLP using specific mapped embedding configuration
+  → Variant of MLP using a specific mapped embedding configuration
 
 **Key Idea:**
 
@@ -77,7 +69,7 @@ Implements MLP-based models for side-effect prediction.
 
 ---
 
-### 4. `graphTrans/`
+### 3. `graphTrans/`
 
 Contains Graph Transformer-based modeling approach.
 
@@ -96,7 +88,7 @@ Contains Graph Transformer-based modeling approach.
 
 ---
 
-### 5. `results/`
+### 4. `results/`
 
 Contains logs and outputs from all experiments.
 
