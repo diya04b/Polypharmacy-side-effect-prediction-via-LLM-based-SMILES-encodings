@@ -137,6 +137,29 @@ Access them here:
 * **Pairwise fusion inputs** → For interaction modeling
 
 ---
+Here’s a **clean, final, short Results section** combining MLP + Graph Transformer:
+
+---
+
+## Results Summary
+
+| Model             | AUC        | AUPRC      | AP@50      |
+| ----------------- | ---------- | ---------- | ---------- |
+| MLP (Unmapped)    | 0.8666     | 0.3418     | 0.6738     |
+| MLP (Mapped)      | 0.8648     | **0.3593** | **0.6819** |
+| Graph Transformer | **0.8224** | **0.7986** | —          |
+
+---
+
+## Logs
+
+Detailed experiment logs are available in:
+
+```bash
+/results/
+```
+
+---
 
 ## Summary
 
