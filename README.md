@@ -147,17 +147,7 @@ Here’s a **clean, final, short Results section** combining MLP + Graph Transfo
 | ----------------- | ---------- | ---------- | ---------- |
 | MLP (Unmapped)    | 0.8666     | 0.3418     | 0.6738     |
 | MLP (Mapped)      | 0.8648     | **0.3593** | **0.6819** |
-| Graph Transformer | **0.8224** | **0.7986** | —          |
-
----
-
-## Logs
-
-Detailed experiment logs are available in:
-
-```bash
-/results/
-```
+| Graph Transformer | **0.8224** | **0.7986** | -         |
 
 ---
 
