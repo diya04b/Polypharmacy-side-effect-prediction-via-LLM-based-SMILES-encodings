@@ -98,34 +98,16 @@ Contains core notebooks for **embedding generation, fusion, and feature engineer
 
 * `Embedding.ipynb`
   → Generates **LLM-based embeddings from SMILES representations**
-
 * `drug_bank.ipynb`
   → Processes and integrates **DrugBank-related data**
-
 * `gnn_rdkit.ipynb`
   → Extracts **graph-based molecular features using RDKit**
-
 * `pair_fusion.ipynb`
   → Builds **pairwise drug representations** for DDI modeling
-
 * `cross_modal_fusion_mapped_only.ipynb`
   → Performs fusion using only **clean mapped embeddings**
-
 * `cross_modal_fusion_with_unmapped_fallback.ipynb`
   → Handles missing embeddings using **fallback strategies**
-
-* `abc.txt`
-  → Placeholder / auxiliary file (non-core)
-
-**Key Idea:**
-
-* Central hub for **feature construction pipelines**
-* Supports:
-
-  * Embedding generation
-  * Multi-modal fusion
-  * Pairwise interaction modeling
-  * Handling missing mappings
 
 ---
 
